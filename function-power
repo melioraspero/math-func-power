@@ -1,6 +1,6 @@
    float power(int n, float x)
   { 
-  int i,j;
+  int i;
   float k=1,p=x;
   if(n<0)
     {        for(i=-1;i>=n;i--)
@@ -10,13 +10,13 @@
         
             }
     }
-  else     for(j=1;j<n;j++)                x=x*p;
+  else     for(i=1;i<n;i++)                x=x*p;
   return(x);
   }
   
  void main(){
  clrscr();
- float a,b,c,d,e;
+ float a;
  int n;
           printf(" a^n , n-integer, a-float +-  \n Enter a and power of a- n \n");
     printf("A=");
