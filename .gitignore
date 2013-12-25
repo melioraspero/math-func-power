@@ -1,30 +1,3 @@
-
-	float power(int n, float x)
-  { 
-  int i,j;
-  float k=1,p=x;
-  if(n<0)
-    {	for(i=-1;i>=n;i--)
-	    {
-	      x=k*(1/p);
-	      k=x;
-	
-	    }
-    }
-  else     for(j=1;j<n;j++)		x=x*p;
-  return(x);
-  }
-  
- void main(){
- clrscr();
- float a,b,c,d,e;
- int n;
-	  printf(" a^n , n-integer, a-float +-  \n Enter a and power of a- n \n");
-    printf("A=");
-	  scanf("%f",&a);
-    printf("\nN=");
-	  scanf("%d",&n);
-	  printf("Was enter: A=%f and N=%d",a,n);
-	  printf("\nSolution a^n= %f",power(n,a));
- getch();
- }
+C language
+.obj
+.exe
